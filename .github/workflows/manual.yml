@@ -30,5 +30,3 @@ jobs:
       run: echo "Hello ${{ github.event.inputs.name }}"
     - name: clone a repo
       run: git clone https://github.com/stonecoldhughes/sample.git ${{github.workspace}}
-    - name: install system dependencies
-      run: apt-get install -y libhdf5-dev
